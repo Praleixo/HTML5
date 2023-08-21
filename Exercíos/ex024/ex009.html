@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de caixas</title>
+    <style>
+        h1 { /* Box-level*/
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            
+            /* border-width: 10 px;
+            border-style: solid;
+            border-color: darkslategray;
+            
+            Posso simplicar tudo isso Apenas usando um shorthand do Border [Usando nessa escala 1- Width 2-Style 3- color]
+            */
+
+            border: 10px solid darkslategray;
+            
+            /* padding-top: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            
+            Posso simplificar isso usando um Shorthand do Padding (Usando na escala da Direita para Esquerda 'Ex:padding: 10px 10px 10px 10px;'
+            [E se todos os Padding da direita para esquerda derem o msm valor você pode simplicar mais ainda apenas colocando "padding: 10px;" que dá certo]
+            {Caso vc queria colocar valores diferente na parte de cima e do lado, vc pode colocar apenas dois valores "Ex: padding: 10px 20px ;" 10px = Vai ser 10 px em cima e em baixo. 20px = Vai ser 20px em ambos Lados. })
+            */
+
+            padding: 10px ;
+            
+            /*margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+
+            Posso simplificar isso usando um Shorthand do Margin (Usando na escala da Direita para Esquerda "Ex:margin: 20px 20px 40px 20px;")
+            [E posso colocar um "Auto" nas direita e na esquerda caso queira ficar centralizado ]
+            */
+            
+            margin: 20px auto 40px auto; 
+
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+            
+            Posso simplicar tudo isso Apenas usando um shorthand do Outline [Usando nessa escala 1- Width 2-Style 3- color]
+            */
+
+            outline: 5px dashed salmon;
+        }
+        a { /* Inline-level */
+            
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exeplos de caixas inline-level.</a> Vamos como tudo isso funciona</p>
+</body>
+</html>

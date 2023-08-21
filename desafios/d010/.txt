@@ -1,0 +1,60 @@
+HEADER:
+
+X: 24
+Y: 59
+W: 903
+H: 1500
+
+HEADER > H1:
+
+X: 403
+Y: 124
+W: 143
+H: 52
+FONT-SIZE: 48
+FONT-STYLE: bold
+TEXT-ALIGN: center
+BORDER: center
+
+NAV: 
+
+X: 24
+Y: 243
+W: 902
+H: 58
+
+NAV > MENU
+
+X: 38
+Y: 250
+W: 340
+H: 30
+
+MAIN:
+
+X: 74
+Y: 302
+W: 800
+H: 1205
+
+ARTICLE:
+
+X: 
+Y: 
+W:  
+H: 
+
+ASIDE:
+
+
+X: 
+Y: 
+W:  
+H: 
+
+FOOTER:
+
+X: 24
+Y: 1525
+W:  901
+H: 34
